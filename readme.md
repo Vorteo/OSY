@@ -1,1 +1,1 @@
-- priklady ze cviceni
+Priklady ze cviceni
