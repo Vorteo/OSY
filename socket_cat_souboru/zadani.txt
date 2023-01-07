@@ -1,0 +1,5 @@
+Server si vytvori pro kazdeho klienta novy proces a bude cist data ze soketu (po radcich), tyto radky bude cislovat od 1 (format: "[cislo_radku] radek") a vracet zpatky klientovi
+Klient bude vypisovat soubor do soketu (zadání)
+- ukonceni pomoci 3 ukoncovacich znaku
+Cislovani je "kriticka a zdlouhava" zalezitost => semafor pouze pro 1 klienta + spani 50ms
+
