@@ -1,0 +1,6 @@
+Klient otevre soubor a zasle jedho delku na server
+Server vytvori thread pro kazdeho klienta, potvrdi prijem
+Klient odesle obsah souboru
+Server prijme data do bufferu zname delky (prvni prenos) a vrati ocislovane radky
+Format radku : [cislo_radku] radek samotny
+Semafor pro praci se souborem (max 1 za cas)
